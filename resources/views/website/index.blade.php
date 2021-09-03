@@ -384,7 +384,7 @@
                         <div class="desc mb-41">Every act of conscious learning requires the willingness to suffer
                             an injury to one’s self-esteem. That is why young children </div>
                         <div class="banner-btn">
-                            <a class="readon purple-btn" href="#">Get Started</a>
+                            <a class="readon purple-btn" href="{{url('/dashboard')}}">Masuk Dashboard</a>
                         </div>
                     </div>
                     <div class="shape-img">

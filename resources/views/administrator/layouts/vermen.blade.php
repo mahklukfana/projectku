@@ -11,6 +11,14 @@
         </a>
     </li>
     {{-- end dashboard --}}
+    <li class="app-sidebar__heading">Database</li>
+    <li>
+        <a href="{{ '/jabatan' }}">
+            <i class="metismenu-icon pe-7s-star"></i>Jabatan
+        </a>
+    </li>
+    {{-- end Jabatan --}}
+    {{-- end Database --}}
     <li class="app-sidebar__heading">Masterdata</li>
     <li>
         <a href="{{ '/list_member' }}">

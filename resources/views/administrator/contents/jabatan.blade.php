@@ -10,7 +10,7 @@
                 <div class="page-title-icon">
                     <i class="pe-7s-arc icon-gradient bg-tempting-azure"></i>
                 </div>
-                <div>Daftar Anggota
+                <div>Daftar Jabatan
                     <div class="page-title-subheading">Terakhir diupdate pada <?= date('l, d F Y') ?></div>
                 </div>
             </div>
