@@ -2,12 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
-use App\Models\Jurusan;
-use App\Models\MatkulAsjk;
 use App\Models\Member;
-use App\Models\Prodi;
-use App\Models\User;
+use App\Models\Job;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -24,6 +20,7 @@ class DatabaseSeeder extends Seeder
         // Category::factory(10)->create();
         // Prodi::factory(10)->create();
         Member::factory(10)->create();
+        Job::factory(10)->create();
         // MatkulAsjk::factory(10)->create();
 
         // ini untuk default kategori

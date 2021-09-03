@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\MatkulAsjk;
+use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class MatkulAsjkController extends Controller
+class JobController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,7 @@ class MatkulAsjkController extends Controller
      */
     public function index()
     {
-        // $data = Category::get();
-        $data = DB::table('matkul_asjks')
+        $data = DB::table('jobs')
             ->orderBy('created_at', 'desc')
             ->get();
         if (request()->ajax()) {
@@ -30,7 +29,7 @@ class MatkulAsjkController extends Controller
                 ->rawColumns(['aksi'])
                 ->make(true);
         }
-        return view('administrator.contents.matkul_asjk');
+        return view('administrator.contents.jabatan');
     }
 
     /**
@@ -51,26 +50,16 @@ class MatkulAsjkController extends Controller
      */
     public function store(Request $request)
     {
-        // dd($request->all());
-        $data = new MatkulAsjk();
-        $data->nama = $request->nama;
-        $data->alamat = $request->alamat;
-        $data->no_handphone = $request->no_handphone;
-        $simpan = $data->save();
-        if ($simpan) {
-            return response()->json(['data' => $data, 'text' => 'Data Berhasil Disimpan'], 200);
-        } else {
-            return response()->json(['data' => $data, 'text' => 'Data Gagal Disimpan']);
-        }
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\MatkulAsjk  $matkulAsjk
+     * @param  \App\Models\Job  $job
      * @return \Illuminate\Http\Response
      */
-    public function show(MatkulAsjk $matkulAsjk)
+    public function show(Job $job)
     {
         //
     }
@@ -78,10 +67,10 @@ class MatkulAsjkController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\MatkulAsjk  $matkulAsjk
+     * @param  \App\Models\Job  $job
      * @return \Illuminate\Http\Response
      */
-    public function edit(MatkulAsjk $matkulAsjk)
+    public function edit(Job $job)
     {
         //
     }
@@ -90,10 +79,10 @@ class MatkulAsjkController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\MatkulAsjk  $matkulAsjk
+     * @param  \App\Models\Job  $job
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, MatkulAsjk $matkulAsjk)
+    public function update(Request $request, Job $job)
     {
         //
     }
@@ -101,10 +90,10 @@ class MatkulAsjkController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\MatkulAsjk  $matkulAsjk
+     * @param  \App\Models\Job  $job
      * @return \Illuminate\Http\Response
      */
-    public function destroy(MatkulAsjk $matkulAsjk)
+    public function destroy(Job $job)
     {
         //
     }

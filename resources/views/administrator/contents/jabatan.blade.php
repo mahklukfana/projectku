@@ -16,7 +16,7 @@
             </div>
             <div class="page-title-actions">
                 <button class="mb-2 mr-2 btn-icon btn btn-primary" onclick="tambah()" id="tambah"><i
-                        class="icon ion-android-add mr-2"> </i>Tambahkan Anggota</button>
+                        class="icon ion-android-add mr-2"> </i>Tambahkan Jabatan</button>
             </div>
         </div>
     </div>
@@ -25,13 +25,11 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="main-card mb-3 card">
                 <div class="card-body table-responsive">
-                    <table class="mb-0 table table-bordered" id="table_anggota">
+                    <table class="mb-0 table table-bordered" id="table_jabatan">
                         <thead>
                             <tr>
                                 <th class="text-center">#</th>
-                                <th class="text-center">Nama</th>
-                                <th class="text-center">No. Handphone</th>
-                                <th class="text-center">RT/RW</th>
+                                <th class="text-center">Jabatan</th>
                                 <th class="text-center">Ditambahkan</th>
                                 {{-- <th class="text-center">Diubah</th> --}}
                                 <th class="text-center">Aksi</th>
@@ -54,11 +52,11 @@
             })
 
             function isi() {
-                $("#table_anggota").DataTable({
+                $("#table_jabatan").DataTable({
                     serverside: true,
                     responsive: true,
                     ajax: {
-                        url: "{{ route('list_member') }}"
+                        url: "{{ route('jabatan') }}"
                     },
                     columns: [{
                             data: null,
@@ -70,18 +68,6 @@
                         {
                             data: 'name',
                             name: 'name'
-                        },
-                        // {
-                        //     data: 'email',
-                        //     name: 'email'
-                        // },
-                        {
-                            data: 'no_handphone',
-                            name: 'no_handphone'
-                        },
-                        {
-                            data: 'address',
-                            name: 'address'
                         },
                         {
                             data: 'created_at',
@@ -137,7 +123,7 @@
                             timer: 3000,
                         });
                         $('#modal_anggota').modal('hide');
-                        $('#table_anggota').DataTable().ajax.reload();
+                        $('#table_jabatan').DataTable().ajax.reload();
                     },
                     error: function(xhr) {
                         // alert(xhr.responJson.text);

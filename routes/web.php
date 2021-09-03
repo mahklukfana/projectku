@@ -1,6 +1,6 @@
 <?php
 
-// use App\Http\Controllers\JobController;
+use App\Http\Controllers\JobController;
 use App\Http\Controllers\MemberController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 
 // Jabatan
-// Route::get('jabatan', [JobController::class, 'index'])->name('jabatan');
+Route::get('jabatan', [JobController::class, 'index'])->name('jabatan');
 // Route::post('category.store', [CategoryController::class, 'store'])->name('category.store');
 // end Jabatan
 
