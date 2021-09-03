@@ -6,7 +6,7 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Educavo - Education HTML Template</title>
+    <title>Karang Taruna Wisanggeni</title>
     <meta name="description" content="">
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -380,9 +380,8 @@
             <div class="container relative">
                 <div class="row">
                     <div class="banner-content">
-                        <h1 class="banner-title mb-20 ">The Best School For Your Kid</h1>
-                        <div class="desc mb-41">Every act of conscious learning requires the willingness to suffer
-                            an injury to one’s self-esteem. That is why young children </div>
+                        <h1 class="banner-title mb-20 ">Karang Taruna Wisanggeni</h1>
+                        <div class="desc mb-41">Dusun Tuwuh Rejo, Kecamatan Kesamben, Kabupaten Blitar</div>
                         <div class="banner-btn">
                             <a class="readon purple-btn" href="{{url('/dashboard')}}">Masuk Dashboard</a>
                         </div>
@@ -420,7 +419,7 @@
         <!-- Banner Section End -->
 
         <!-- Features Section start -->
-        <div id="rs-features" class="rs-features style3 pt-100 pb-100 md-pt-70 md-pb-70">
+       <!-- <div id="rs-features" class="rs-features style3 pt-100 pb-100 md-pt-70 md-pb-70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 md-mb-40">
@@ -489,11 +488,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- Features Section End -->
 
         <!-- About Section Start -->
-        <div class="rs-about style11 pb-100 md-pb-70">
+        <div class="rs-about style11 pt-100 pb-100 md-pb-70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 md-mb-30">
@@ -504,10 +503,9 @@
                     <div class="col-lg-6 pl-65 md-pl-15 col-md-12">
                         <div class="sec-title2">
                             <div class="sub-title">
-                                About us
+                                Tentang Kami
                             </div>
-                            <h2 class="title purple-color mb-30">We are kindergarten and
-                                childhood is our passion.</h2>
+                            <h2 class="title purple-color mb-30">Kita Adalah Generasi Penerus Bangsa.</h2>
                             <p class="desc mb-45">
                                 Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed eius to mod tempor
                                 incididunt ut labore orem ipsum dolor sit amet, consectetur adipisic ing elit, sed eius
@@ -516,7 +514,7 @@
                             </p>
                         </div>
                         <div class="btn-part">
-                            <a class="readon purple-btn" href="#">Read More</a>
+                            <a class="readon purple-btn" href="#">Lihat Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -533,8 +531,8 @@
                 <div class="col-lg-7 padding-0">
                     <div class="main-part">
                         <div class="sec-title2 mb-40 md-mb-25">
-                            <div class="sub-title">What We Do</div>
-                            <h2 class="title purple-color">Our Programs</h2>
+                            <div class="sub-title">Apa yang kita lakukan ?</div>
+                            <h2 class="title purple-color">Program Kami</h2>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 mb-40">
@@ -1265,7 +1263,7 @@
                                     <h3 class="title"><a href="#">This is a great source of content
                                             for anyone...</a></h3>
                                     <div class="btn-part">
-                                        <a class="readon-arrow" href="#">Read More</a>
+                                        <a class="readon-arrow" href="#">Lihat Selengkapnya</a>
                                     </div>
                                 </div>
                             </div>
@@ -1280,7 +1278,7 @@
                                     <h3 class="title"><a href="#">This is a great source of content
                                             for anyone...</a></h3>
                                     <div class="btn-part">
-                                        <a class="readon-arrow" href="#">Read More</a>
+                                        <a class="readon-arrow" href="#">Lihat Selengkapnya</a>
                                     </div>
                                 </div>
                             </div>

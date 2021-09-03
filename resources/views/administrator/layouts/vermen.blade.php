@@ -6,7 +6,7 @@
         </a>
     </li>
     <li>
-        <a href="{{ '/welcome' }}" target="_blank">
+        <a href="{{ '/' }}" target="_blank">
             <i class="metismenu-icon pe-7s-next-2"></i>Lihat Website
         </a>
     </li>
