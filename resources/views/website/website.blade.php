@@ -11,40 +11,9 @@
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.html">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <!-- Bootstrap v4.4.1 css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
-    <!-- slick css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-    <!-- off canvas css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
-    <!-- linea-font css -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
-    <!-- flaticon css  -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
-    <!-- magnific popup css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
-    <!-- Main Menu css -->
-    <link rel="stylesheet" href="assets/css/rsmenu-main.css">
-    <!-- spacing css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- This stylesheet dynamically changed from style.less -->
-    <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    {{-- stylesheet --}}
+    @include('website.stylesheet')
+    {{-- end stylesheet --}}
 </head>
 
 <body class="home-style4">
@@ -100,115 +69,33 @@
                             </div>
                             <nav class="rs-menu">
                                 <ul class="nav-menu">
-                                    <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a
-                                            href="index.html">Home</a>
-                                        <ul class="mega-menu">
-                                            <li class="mega-menu-container">
-                                                <div class="mega-menu-innner">
-                                                    <div class="single-megamenu">
-                                                        <ul class="sub-menu">
-                                                            <li><a href="index.html">Main Demo</a> </li>
-                                                            <li><a href="index2.html">Online Course</a> </li>
-                                                            <li><a href="index3.html">University 01</a> </li>
-                                                            <li><a href="index4.html">E-Learning</a> </li>
-                                                            <li><a href="index5.html">Distance Learning</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="single-megamenu">
-                                                        <ul class="sub-menu last-sub-menu">
-                                                            <li><a href="index6.html">Personal Demo</a> </li>
-                                                            <li><a href="index7.html">Online Training</a> </li>
-                                                            <li><a href="index8.html">Online Learning</a> </li>
-                                                            <li><a href="index9.html">Kitchen Coach</a> </li>
-                                                            <li><a href="index10.html">University 02</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="single-megamenu">
-                                                        <ul class="sub-menu last-sub-menu">
-                                                            <li class="active"><a
-                                                                    href="index11.html">Kindergarten 01</a> </li>
-                                                            <li><a href="index12.html">Freelancing Course</a> </li>
-                                                            <li><a href="index13.html">Gym Coach</a> </li>
-                                                            <li><a href="index14.html">Courses Archive</a> </li>
-                                                            <li><a href="#">Coming Soon</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul> <!-- //.mega-menu -->
+                                    <li class="rs-mega-menu mega-rs menu-item-has-children current-menu-item">
+                                        <a href="{{ '/' }}">Beranda</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">About</a>
+                                        <a href="#">Tentang</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about.html">About One</a> </li>
-                                            <li><a href="about2.html">About Two</a> </li>
+                                            <li><a href="{{ '/visi-misi' }}">Visi dan Misi</a> </li>
+                                            <li><a href="about2.html">Tujuan</a> </li>
                                         </ul>
                                     </li>
 
                                     <li class="menu-item-has-children">
-                                        <a href="#">Courses</a>
+                                        <a href="#">Informasi</a>
                                         <ul class="sub-menu">
-                                            <li><a href="course.html">Courses One</a> </li>
-                                            <li><a href="course2.html">Courses Two</a> </li>
-                                            <li><a href="course3.html">Courses Three</a> </li>
-                                            <li><a href="course4.html">Courses Four</a>
-                                            </li>
-                                            <li><a href="course5.html">Courses Five</a> </li>
-                                            <li><a href="course-single.html">Courses Single</a> </li>
+                                            <li><a href="course2.html">Surat Keputusan</a> </li>
+                                            <li><a href="course.html">Kepengurusan</a> </li>
+                                            <li><a href="course.html">Keuangan</a> </li>
                                         </ul>
                                     </li>
 
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children right">
-                                                <a href="#">Team</a>
-                                                <ul class="sub-menu right">
-                                                    <li><a href="team.html">Team One</a></li>
-                                                    <li><a href="team2.html">Team Two</a></li>
-                                                    <li><a href="team-single.html">Team Single</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Event</a>
-                                                <ul class="sub-menu right">
-                                                    <li><a href="events-style1.html">Event One</a></li>
-                                                    <li><a href="events-style2.html">Event Two</a></li>
-                                                    <li><a href="events-style3.html">Event Three</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Gallery</a>
-                                                <ul class="sub-menu right">
-                                                    <li><a href="gallery-style1.html">Gallery One</a></li>
-                                                    <li><a href="gallery-style2.html">Gallery Two</a></li>
-                                                    <li><a href="gallery-style3.html">Gallery Three</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu right">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-single.html">Shop Single</a></li>
-                                                    <li><a href="cart.html">Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Others</a>
-                                                <ul class="sub-menu right">
-                                                    <li><a href="faq.html">FAQ</a></li>
-                                                    <li><a href="error.html">404 Page</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li class="menu-item">
+                                        <a href="#">Gallery</a>
                                     </li>
 
                                     <li class="menu-item-has-children">
                                         <a href="#">Blog</a>
-                                        <ul class="sub-menu">
+                                        {{-- <ul class="sub-menu">
                                             <li><a href="blog.html">Blog</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Blog Sidebar</a>
@@ -225,81 +112,20 @@
                                                     <li><a href="blog-single.html">Full Width Post</a></li>
                                                 </ul>
                                             </li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
 
                                     <li class="menu-item-has-children">
-                                        <a href="#">Contact</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="contact.html">Contact One</a> </li>
-                                            <li><a href="contact2.html">Contact Two</a> </li>
-                                            <li><a href="contact3.html">Contact Three</a> </li>
-                                            <li><a href="contact4.html">Contact Four</a> </li>
-                                        </ul>
+                                        <a href="#">Kontak Kami</a>
+                                    </li>
+
+                                    <li class="menu-item">
+                                        <a href="#">Login</a>
                                     </li>
                                 </ul> <!-- //.nav-menu -->
                             </nav>
                         </div> <!-- //.main-menu -->
                         <div class="expand-btn-inner">
-                            <ul>
-                                {{-- <li class="icon-bar cart-inner mini-cart-active">
-                                    <a class="cart-icon">
-                                        <!-- <span class="cart-count">2</span> -->
-                                        <i class="flaticon-bag"></i>
-                                    </a>
-                                    <div class="woocommerce-mini-cart text-left">
-                                        <div class="cart-bottom-part">
-                                            <ul class="cart-icon-product-list">
-                                                <li class="display-flex">
-                                                    <div class="icon-cart">
-                                                        <a href="#"><i class="fa fa-times"></i></a>
-                                                    </div>
-                                                    <div class="product-info">
-                                                        <a href="cart.html">Law Book</a><br>
-                                                        <span class="quantity">1 × $30.00</span>
-                                                    </div>
-                                                    <div class="product-image">
-                                                        <a href="cart.html"><img src="assets/images/shop/1.jpg"
-                                                                alt="Product Image"></a>
-                                                    </div>
-                                                </li>
-                                                <li class="display-flex">
-                                                    <div class="icon-cart">
-                                                        <a href="#"><i class="fa fa-times"></i></a>
-                                                    </div>
-                                                    <div class="product-info">
-                                                        <a href="cart.html">Spirit Level</a><br>
-                                                        <span class="quantity">1 × $30.00</span>
-                                                    </div>
-                                                    <div class="product-image">
-                                                        <a href="cart.html"><img src="assets/images/shop/2.jpg"
-                                                                alt="Product Image"></a>
-                                                    </div>
-                                                </li>
-                                            </ul>
-
-                                            <div class="total-price text-center">
-                                                <span class="subtotal">Subtotal:</span>
-                                                <span class="current-price">$85.00</span>
-                                            </div>
-
-                                            <div class="cart-btn text-center">
-                                                <a class="crt-btn btn1" href="cart.html">View Cart</a>
-                                                <a class="crt-btn btn2" href="checkout.html">Check Out</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal"
-                                        href="#">
-                                        <i class="flaticon-search"></i>
-                                    </a>
-                                </li> --}}
-                                <li>
-                                    <a class="apply-btn" href="{{ url('/dashboard') }}">Login</a>
-                                </li>
-                            </ul>
                             <span><a id="nav-expander" class="nav-expander style5">
                                     <span class="bar">
                                         <span class="dot1"></span>
@@ -383,7 +209,7 @@
                         <h1 class="banner-title mb-20 ">Karang Taruna Wisanggeni</h1>
                         <div class="desc mb-41">Dusun Tuwuh Rejo, Kecamatan Kesamben, Kabupaten Blitar</div>
                         <div class="banner-btn">
-                            <a class="readon purple-btn" href="{{url('/dashboard')}}">Masuk Dashboard</a>
+                            <a class="readon purple-btn" href="{{ url('/dashboard') }}">Masuk Dashboard</a>
                         </div>
                     </div>
                     <div class="shape-img">
@@ -419,7 +245,7 @@
         <!-- Banner Section End -->
 
         <!-- Features Section start -->
-       <!-- <div id="rs-features" class="rs-features style3 pt-100 pb-100 md-pt-70 md-pb-70">
+        <!-- <div id="rs-features" class="rs-features style3 pt-100 pb-100 md-pt-70 md-pb-70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 md-mb-40">
@@ -1492,44 +1318,9 @@
         </div>
     </div>
     <!-- Search Modal End -->
-
-    <!-- modernizr js -->
-    <script src="assets/js/modernizr-2.8.3.min.js"></script>
-    <!-- jquery latest version -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap v4.4.1 js -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Menu js -->
-    <script src="assets/js/rsmenu-main.js"></script>
-    <!-- op nav js -->
-    <script src="assets/js/jquery.nav.js"></script>
-    <!-- owl.carousel js -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Slick js -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- isotope.pkgd.min js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- imagesloaded.pkgd.min js -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- wow js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Skill bar js -->
-    <script src="assets/js/skill.bars.jquery.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- counter top js -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <!-- video js -->
-    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- magnific popup js -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- tilt js -->
-    <script src="assets/js/tilt.jquery.min.js"></script>
-    <!-- plugins js -->
-    <script src="assets/js/plugins.js"></script>
-    <!-- contact form js -->
-    <script src="assets/js/contact.form.js"></script>
-    <!-- main js -->
-    <script src="assets/js/main.js"></script>
+    {{-- script --}}
+    @include('website.script')
+    {{-- end script --}}
 </body>
 
 <!-- Mirrored from keenitsolutions.com/products/html/educavo/index11.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jun 2021 13:12:39 GMT -->

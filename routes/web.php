@@ -18,8 +18,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/dashboard  ', function () {
     return view('administrator/contents/dashboard');
 });
+// website
 Route::get('/', function () {
-    return view('website/index');
+    return view('website/website');
+});
+// login
+Route::get('/login', function () {
+    return view('administrator/auth/login');
+});
+// register
+Route::get('/register', function () {
+    return view('administrator/auth/register');
+});
+// forgot
+Route::get('/forgot', function () {
+    return view('administrator/auth/forgot');
 });
 
 // Jabatan
