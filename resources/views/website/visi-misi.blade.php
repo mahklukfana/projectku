@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from keenitsolutions.com/products/html/educavo/about2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jun 2021 13:13:19 GMT -->
 
 <head>
     <!-- meta tag -->
