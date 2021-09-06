@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from keenitsolutions.com/products/html/educavo/index11.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jun 2021 13:12:20 GMT -->
 
 <head>
     <!-- meta tag -->
@@ -67,9 +66,9 @@
                                     <i class="fa fa-bars"></i>
                                 </a>
                             </div>
-                          <!--nav-->
-                          @include('website.nav-menu')
-                          <!--end nav-->
+                            <!--nav-->
+                            @include('website.nav-menu')
+                            <!--end nav-->
                         </div> <!-- //.main-menu -->
                         <div class="expand-btn-inner">
                             <span><a id="nav-expander" class="nav-expander style5">

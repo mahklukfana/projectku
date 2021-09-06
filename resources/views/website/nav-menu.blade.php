@@ -1,32 +1,32 @@
-  <nav class="rs-menu">
-                                <ul class="nav-menu">
-                                    <li class="menu-item current-menu-item">
-                                        <a href="{{ '/' }}">Beranda</a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Tentang</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ '/visi-misi' }}">Visi dan Misi</a> </li>
-                                            <li><a href="about2.html">Tujuan</a> </li>
-                                        </ul>
-                                    </li>
+<nav class="rs-menu">
+    <ul class="nav-menu">
+        <li class="menu-item current-menu-item">
+            <a href="{{ '/' }}">Beranda</a>
+        </li>
+        <li class="menu-item-has-children">
+            <a href="#">Tentang</a>
+            <ul class="sub-menu">
+                <li><a href="{{ '/visi-misi' }}">Visi dan Misi</a> </li>
+                <li><a href="about2.html">Tujuan</a> </li>
+            </ul>
+        </li>
 
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Informasi</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="course2.html">Surat Keputusan</a> </li>
-                                            <li><a href="course.html">Kepengurusan</a> </li>
-                                            <li><a href="course.html">Keuangan</a> </li>
-                                        </ul>
-                                    </li>
+        <li class="menu-item-has-children">
+            <a href="#">Informasi</a>
+            <ul class="sub-menu">
+                <li><a href="course2.html">Surat Keputusan</a> </li>
+                <li><a href="course.html">Kepengurusan</a> </li>
+                <li><a href="course.html">Keuangan</a> </li>
+            </ul>
+        </li>
 
-                                    <li class="menu-item">
-                                        <a href="#">Gallery</a>
-                                    </li>
+        <li class="menu-item">
+            <a href="#">Gallery</a>
+        </li>
 
-                                    <li class="menu-item">
-                                        <a href="#">Blog</a>
-                                        {{-- <ul class="sub-menu">
+        <li class="menu-item">
+            <a href="#">Blog</a>
+            {{-- <ul class="sub-menu">
                                             <li><a href="blog.html">Blog</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Blog Sidebar</a>
@@ -44,14 +44,14 @@
                                                 </ul>
                                             </li>
                                         </ul> --}}
-                                    </li>
+        </li>
 
-                                    <li class="">
-                                        <a href="#">Kontak Kami</a>
-                                    </li>
+        <li class="">
+                                        <a href=" #">Kontak Kami</a>
+        </li>
 
-                                    <li class="menu-item">
-                                        <a href="#">Login</a>
-                                    </li>
-                                </ul> <!-- //.nav-menu -->
-                            </nav>
+        <li class="menu-item">
+            <a href="#">Login</a>
+        </li>
+    </ul> <!-- //.nav-menu -->
+</nav>
